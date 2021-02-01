@@ -256,3 +256,20 @@ a:hover {
 	justify-content: space-around;
 	align-items: center;
 }
+
+/* ローディング */
+.loading {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 9999;
+	width: 100vw;
+	height: 100vh;
+	transition: all 1s;
+	background-color: var(--base_bgcolor_2);
+}
+
+.loaded {
+	opacity: 0;
+	visibility:hidden;
+}
