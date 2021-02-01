@@ -44,7 +44,7 @@
                     <div class="my-sns-item_2_row"><a href="https://twitter.com/mioyoshino_3031" target="blank"><i class="fab fa-twitter fa-5x"></i></a></div>
                     <div class="my-sns-item_2_row"><a href="https://www.instagram.com/mioyoshino_3031/" target="blank"><i class="fab fa-instagram fa-5x"></i></a></div>
                     <div class="my-sns-item_2_row"><a href=""><i class="fab fa-youtube fa-5x"></i></a></div>
-                    <div class="my-sns-item_2_row"><a href="https://github.com/mioyoshino-3031/portfolio" target="blank"><i class="fab fa-github fa-5x"></i></a></div>
+                    <div class="my-sns-item_2_row"><a href="https://github.com/mioyoshino-3031" target="blank"><i class="fab fa-github fa-5x"></i></a></div>
                     <div class="my-sns-item_2_row"></div>
                     <div class="my-sns-item_2_row"></div>
                 </div>
