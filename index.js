@@ -14,12 +14,16 @@ btn.addEventListener("change", () => {
     // ダークモード
     document.body.classList.remove("light-mode");
     document.body.classList.add("dark-mode");
+    document.getElementById("switch-mode-sp").classList.remove("light-mode-sp");
+    document.getElementById("switch-mode-sp").classList.add("dark-mode-sp");
     document.getElementById("switch-mode-button").classList.remove("light-mode-button")
     document.getElementById("switch-mode-button").classList.add("dark-mode-button")
   } else {
     // ライトモード
     document.body.classList.remove("dark-mode");
     document.body.classList.add("light-mode");
+    document.getElementById("switch-mode-sp").classList.remove("dark-mode-sp");
+    document.getElementById("switch-mode-sp").classList.add("light-mode-sp");
     document.getElementById("switch-mode-button").classList.remove("dark-mode-button")
     document.getElementById("switch-mode-button").classList.add("light-mode-button")
   }

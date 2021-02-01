@@ -31,7 +31,7 @@ body {
 	width: 100vw;
 	height: 100vh;
 	color: var(--base_ftcolor_1);
-	background-image: url("");
+	background-image: url("https://mioyoshino.com/wordpress/wp-content/uploads/2020/12/20150118_1-scaled.jpg");
 	background-color: var(--base_bgcolor_1);
 	background-blend-mode: overlay;
 	background-size: cover;
@@ -366,6 +366,38 @@ a:hover {
 
 	.header-item {
 		margin-right: 1rem;
+	}
+
+	.light-mode-sp {
+		box-sizing: border-box;
+		width: 100vw;
+		height: 100vh;
+		color: var(--base_ftcolor_1);
+		background-image: url("https://mioyoshino.com/wordpress/wp-content/uploads/2020/12/20150118_1-scaled.jpg");
+		background-color: var(--base_bgcolor_1);
+		background-blend-mode: overlay;
+		background-size: cover;
+		background-position: center top;
+		position:fixed;
+		top:0;
+		left:0;
+		z-index: 9;
+	}
+
+	.dark-mode-sp {
+		box-sizing: border-box;
+		width: 100vw;
+		height: 100vh;
+		color: var(--base_ftcolor_1);
+		background-image: url("https://mioyoshino.com/wordpress/wp-content/uploads/2020/12/20150118_1-scaled.jpg");
+		background-color: var(--base_bgcolor_2);
+		background-blend-mode: luminosity;
+		background-size: cover;
+		background-position: center top;
+		position:fixed;
+		top:0;
+		left:0;
+		z-index: 9;
 	}
 
 	.my-home {
