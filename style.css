@@ -273,3 +273,49 @@ a:hover {
 	opacity: 0;
 	visibility:hidden;
 }
+
+* ダークモード */
+.light-mode {
+	background-color: var(--base_bgcolor_1);
+	background-blend-mode: overlay;
+}
+
+.dark-mode {
+	background-color: var(--base_bgcolor_2);
+	background-blend-mode: luminosity;
+}
+
+.switch-mode {
+	appearance: none;
+	z-index: 999;
+	position: relative;
+}
+
+.switch-mode-button {
+	width: 34px;
+	height: 19px;
+	border: solid 3px;
+	border-radius: 10px;
+	cursor: pointer;
+	z-index: 999;
+	position: relative;
+}
+
+.switch-mode-button::before{
+	content: "";
+	display: block;
+	position: relative;
+	width: 13px;
+	height: 13px;
+	background: var(--base_ftcolor_1);
+	border-radius: 100%;
+	transition: all .2s;
+	z-index: 999;
+	position: relative;
+}
+
+.switch-mode-button.dark-mode-button::before{
+	margin-left: 55%;
+	z-index: 999;
+	position: relative;
+}
