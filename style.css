@@ -78,3 +78,181 @@ a {
 a:hover {
 	opacity: 0.7;
 }
+
+.container-header {
+	width: 100vw;
+	height: 10vh;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	z-index: 999;
+	position: fixed;
+	padding: 0 5rem;
+}
+
+.container-main {
+	width: 100vw;
+	display: flex;
+	flex-direction: column;
+	z-index: 99;
+	position: relative;
+}
+
+.nav-header {
+	display: flex;
+	justify-content: center;
+}
+
+.header-item {
+	margin-right: 3rem;
+}
+
+.parallax {
+	width: 100vw;
+	height: 100vh;
+	opacity: 0.7;
+}
+
+.my-home {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.my-about {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	background-color: var(--base_bgcolor_2);
+	box-shadow:
+	  0px 3px 3px rgba(43, 43, 43, 0.4),
+	  0px 4px 4px rgba(43, 43, 43, 0.3),
+	  0px 5px 5px rgba(43, 43, 43, 0.2);
+}
+
+.my-about-item_1 {
+	width: 100vw;
+	height: 25vh;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+}
+
+.my-about-item_2 {
+	width: 45vw;
+	height: 75vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.my-about-item_3 {
+	width: 55vw;
+	height: 75vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	line-height: 2.5rem;
+}
+
+.my-concept {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.my-concept-item_1 {
+	width: 100vw;
+	height: 25vh;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+}
+
+.my-concept-item_2 {
+	width: 100vw;
+	height: 75vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.my-skills {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	background-color: var(--base_bgcolor_2);
+	box-shadow:
+	  0px 3px 3px rgba(43, 43, 43, 0.4),
+	  0px 4px 4px rgba(43, 43, 43, 0.3),
+	  0px 5px 5px rgba(43, 43, 43, 0.2);
+}
+
+.my-skills-item_1 {
+	width: 100vw;
+	height: 25vh;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+}
+
+.my-skills-item_2 {
+	width: 50vw;
+	height: 75vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	line-height: 2.5rem;
+}
+
+.my-skills-item_2_row:first-child, .my-skills-item_3_row:first-child {
+	padding-bottom: 1rem;
+}
+
+.my-skills-item_3 {
+	width: 50vw;
+	height: 75vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	line-height: 2.5rem;
+}
+
+.my-sns {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.my-sns-item_1 {
+	width: 100vw;
+	height: 25vh;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+}
+
+.my-sns-item_2 {
+	width: 100vw;
+	height: 65vh;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.my-sns-item_3 {
+	width: 100vw;
+	height: 10vh;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
