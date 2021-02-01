@@ -54,6 +54,6 @@
             </div>
         </main>
     <!-- Javascript -->
-    <script src="index.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/index.js"></script>
 </body>
 </html>
