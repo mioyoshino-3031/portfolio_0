@@ -4,5 +4,5 @@
 https://mioyoshino.com/
 
 ## SKILLS
-HTML / CSS /Javascript / PHP
+HTML / CSS /Javascript / PHP<br>
 Adobe XD / Photoshop / Illustrator / Premiere Pro
