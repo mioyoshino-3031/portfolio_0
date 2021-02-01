@@ -24,3 +24,17 @@ btn.addEventListener("change", () => {
     document.getElementById("switch-mode-button").classList.add("light-mode-button")
   }
 });
+
+//スムーススクロール
+document.addEventListener("click", e => {
+    const target = e.target;
+  
+    if (!target.classList.contains("smooth-scroll")) return;
+    e.preventDefault();
+  
+    const targetId = target.hash;
+    document.querySelector(targetId).scrollIntoView({
+      behavior: "smooth",
+      block: "start"
+    });
+  });
