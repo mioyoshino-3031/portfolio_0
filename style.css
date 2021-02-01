@@ -149,6 +149,12 @@ a:hover {
 	align-items: center;
 }
 
+.my-picture {
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+}
+
 .my-about-item_3 {
 	width: 55vw;
 	height: 75vh;
@@ -382,16 +388,22 @@ a:hover {
 	
 	.my-about-item_2 {
 		width: 100vw;
-		height: 40vh;
+		height: 30vh;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
 	}
+
+	.my-picture {
+		width: 100px;
+		height: 100px;
+		border-radius: 50%;
+	}
 	
 	.my-about-item_3 {
 		width: 100vw;
-		height: 40vh;
+		height: 50vh;
 		display: flex;
 		flex-direction: column;
 		justify-content: flex-start;
