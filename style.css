@@ -319,3 +319,189 @@ a:hover {
 	z-index: 999;
 	position: relative;
 }
+
+
+/* レスポンシブ */
+/* タブレット */
+@media only screen and (max-width:1024px) {
+    :root {
+        --f1: 2rem;
+        --f2: 1.75rem;
+        --f3: 1.25rem;
+        --f4: 1rem;
+        --f5: 0.75rem;
+        --f6: 0.5rem;
+    }
+
+    .container-header {
+		padding: 0 3rem;
+	}
+
+	.header-item {
+		margin-right: 2rem;
+	}
+}
+
+/* スマートフォン*/
+@media only screen and (max-width:600px) {
+
+    :root {
+        --f1: 1.75rem;
+        --f2: 1.25rem;
+        --f3: 1rem;
+        --f4: 0.75rem;
+        --f5: 0.5rem;
+        --f6: 0.25rem;
+    }
+
+    .container-header {
+		padding: 0 1rem;
+	}
+
+	.header-item {
+		margin-right: 1rem;
+	}
+
+	.my-home {
+		text-align: center;
+	}
+
+	.my-about {
+		display: flex;
+		flex-direction: column;
+		background-color: var(--base_bgcolor_2);
+	}
+	
+	.my-about-item_1 {
+		width: 100vw;
+		height: 20vh;
+		display: flex;
+		justify-content: center;
+		align-items: flex-end;
+	}
+	
+	.my-about-item_2 {
+		width: 100vw;
+		height: 40vh;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	
+	.my-about-item_3 {
+		width: 100vw;
+		height: 40vh;
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: center;
+		line-height: 2.5rem;
+		text-align: center;
+	}
+
+	.responsive-text::before {
+			content: "\A" ;
+			white-space: pre ;
+		}
+
+	.my-concept {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+	
+	.my-concept-item_1 {
+		width: 100vw;
+		height: 20vh;
+		display: flex;
+		justify-content: center;
+		align-items: flex-end;
+	}
+	
+	.my-concept-item_2 {
+		width: 100vw;
+		height: 80vh;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.my-skills {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		background-color: var(--base_bgcolor_2);
+	}
+	
+	.my-skills-item_1 {
+		width: 100vw;
+		height: 20vh;
+		display: flex;
+		justify-content: center;
+		align-items: flex-end;
+	}
+	
+	.my-skills-item_2 {
+		width: 100vw;
+		height: 40vh;
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-end;
+		align-items: center;
+		line-height: 2.5rem;
+	}
+	
+	.my-skills-item_2_row:first-child, .my-skills-item_3_row:first-child {
+		padding-bottom: 0.5rem;
+	}
+	
+	.my-skills-item_3 {
+		width: 100vw;
+		height: 40vh;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		line-height: 2.5rem;
+	}
+
+	.my-sns {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+	}
+	
+	.my-sns-item_1 {
+		width: 100vw;
+		height: 20vh;
+		display: flex;
+		justify-content: center;
+		align-items: flex-end;
+	}
+	
+	.my-sns-item_2 {
+		width: 100vw;
+		height: 70vh;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		align-items: center;
+	}
+
+	.my-sns-item_2_row {
+		width: 50vw;
+		text-align: center;
+	}
+	
+	.my-sns-item_3 {
+		width: 100vw;
+		height: 10vh;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		align-items: center;
+	}
+
+}
