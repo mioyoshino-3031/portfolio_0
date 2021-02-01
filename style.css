@@ -358,7 +358,16 @@ a:hover {
         --f4: 0.75rem;
         --f5: 0.5rem;
         --f6: 0.25rem;
-    }
+	}
+	
+	/* SP Safari vh対応 */
+	/* Safari以外には適用しない */
+	@supports (-webkit-touch-callout: none) {
+		body {
+			/* Safari用 */
+			height: -webkit-fill-available;
+		}
+	}
 
     .container-header {
 		padding: 0 1rem;
