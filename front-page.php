@@ -19,7 +19,9 @@
             </div>
             <div id="my-concept" class="parallax my-concept">
                 <div class="my-concept-item_1"><h3>CONCEPT</h3></div>
-                <div class="my-concept-item_2"><h3>動画</h3></div>
+                <div class="my-concept-item_2">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/7ug7pe0arfc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
             </div>
             <div id="my-skills" class="parallax my-skills">
                 <div class="my-skills-item_1"><h3>SKILLS</h3></div>
